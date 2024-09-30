@@ -29,9 +29,10 @@ The "Save Syrian Children" website is a fully responsive site designed to spread
 - Font Awesome: For social icons and visual elements.
 
 ## Screenshots
-[HomePage mobile](https://github.com/user-attachments/assets/622dca1b-aa5d-4d26-920a-36f9da322183)
+<img width="614" alt="HomePage-mobile" src="https://github.com/user-attachments/assets/07f84bd0-d038-44db-8e73-884bc01e09ea">
 
-![Uploading navigationOnMobile.png…]()
+<img width="528" alt="navigationOnMobile" src="https://github.com/user-attachments/assets/24c1aa3c-f9fc-42ff-8500-a54a475715d8">
+
 
 <img width="513" alt="DonateForm1-mobile" src="https://github.com/user-attachments/assets/0f424140-6ae2-4734-b10d-7b7c9a755940">
 <img width="1438" alt="contactForm" src="https://github.com/user-attachments/assets/cff6da97-434d-4467-b02e-4f25a93d2af1">
