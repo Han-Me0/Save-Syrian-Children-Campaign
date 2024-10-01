@@ -30,9 +30,12 @@ The "Save Syrian Children" website is a fully responsive site designed to spread
 
 ## Screenshots
 
-<img width="492" alt="Home-mobile" src="https://github.com/user-attachments/assets/505a8e86-f27f-4844-818f-41846b4eb4dd">
+<img width="514" alt="Home-mobileSize" src="https://github.com/user-attachments/assets/f5691de8-93ab-45b5-886d-78cd3959aa9b">
 
-<img width="512" alt="Navigation-mobile" src="https://github.com/user-attachments/assets/199e474a-fd87-4bf7-8a61-71c340761171">
+<img width="513" alt="Navigation mobileSize" src="https://github.com/user-attachments/assets/1ab17cfa-45fd-4312-988b-f21c08ca6437">
+
+<img width="515" alt="Donate-mobileSize" src="https://github.com/user-attachments/assets/8a8edb08-0990-490c-90d4-593e8ef31018">
+
 
 <img width="513" alt="DonateForm1-mobile" src="https://github.com/user-attachments/assets/0f424140-6ae2-4734-b10d-7b7c9a755940">
 <img width="1438" alt="contactForm" src="https://github.com/user-attachments/assets/cff6da97-434d-4467-b02e-4f25a93d2af1">
