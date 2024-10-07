@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising Campain</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/327d4554c8.js" crossorigin="anonymous"></script>
+       <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body id="Body-Donate">
+    <div class="logo">
+      <img src="Portraits/finallogo.png" alt="">
+      <img src="Portraits/mobile-logo2.png" alt="">
+    </div>
+    <div class="container-navigation">
+         <ul class="right-side">
+            <li id="About" class="nav-link-wrapper">
+                <a href="About.html">ABOUT</a>
+            </li>
+            <li id="Home" class="nav-link-wrapper">
+                <a href="Home.html">HOME</a>
+            </li>
+            <li id="Team" class="nav-link-wrapper">
+                <a href="#Team">CONTACT</a>
+            </li>
+            <li id="Donate" class="nav-link-wrapper">
+                <a href="Donate.html">DONATE ♡</a>
+            </li>
+  </ul>
+  <div id="menuToggle">
+
+   <input type="checkbox" />
+
+   <span></span>
+   <span></span>
+   <span></span>
+
+   <ul id="menu">
+     <a href="Home.html"><li>Home</li></a>
+     <a href="About.html"><li>About</li></a>
+     <a href="#"><li>Info</li></a>
+     <a href="#" target=".footer"><li>Contact Us</li></a>
+     <a href="https://erikterwan.com/" target="_blank"><li>Members Contribuations</li></a>
+   </ul>
+ </div>
+     </div>
+
+   <div class="background-div">
+
+   </div>
+
+    <div class="wrapper-Donation">
+      <div class="Donate-text">
+        <h1>Donate</h1>
+         <img src="Portraits/group D.jpg" alt="children">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="Donation-form"><br>
+
+       <div class="amount-field">
+       <div class="amount-btn">
+         <button type="button" class="amount-btn-small" data-amount="5">€5</button>
+         <button type="button" class="amount-btn-small" data-amount="10">€10</button>
+         <button type="button" class="amount-btn-small" data-amount="20">€20</button>
+        </div>
+
+        <div class="amount-box first-row">
+        <div id="amount">
+           <label for="currency" class="currency-symbol">€</label>
+           <input type="numeric" placeholder="" required
+           class="user-input">
+           <span class="suffix">.00</span>
+        </div>
+        </div>
+
+        <div class="second-row ">
+          <select class="currency-select" name="">
+            <option value="EUR">EUR</option>
+            <option value="CLP">CLP</option>
+            <option value="GBP">GBP</option>
+          </select>
+
+            <select class="recurring">
+              <option value="">once-only</option>
+              <option value="">monthly</option>
+            </select>
+
+        </div>
+        </div>
+
+         <form method="post">
+
+           <div class="member-field">
+              <div class="input-box">
+               <input id="name" type="text" placeholder="Name" required>
+               </div>
+              <div class="input-box">
+               <input type="email" placeholder="Email" required>
+               </div>
+               <div id="country" class="input-box">
+               <input type="country" placeholder="country" required>
+               </div>
+               </div>
+
+
+           <div class="pay-method">
+               <h4>Payment method</h4>
+               <div class="pay-icons">
+               <span class="iconify" data-icon="simple-icons:sepa" data-inline="false"></span>
+               <i class="fab fa-cc-visa"></i>
+               <i class="fab fa-paypal"></i>
+               <i class="fab fa-cc-mastercard"></i>
+               </div>
+             </div>
+
+            <select class="input-box" id="template-pay">
+              <option value="">Direct Debit</option>
+              <option value="">Credit Card</option>
+            </select>
+
+
+           <div class="input-group">
+             <div class="input-box">
+               <h4>CARD NUMBER</h4>
+               <input type="te1" placeholder="1234 &nbsp;1234&nbsp;1234&nbsp;1234" required class="name">
+               <!-- <i class="far fa-credit-card"></i> -->
+             </div>
+           </div>
+
+           <!-- <div class="input-group"> -->
+             <div class="input-box-sec-row">
+               <div class="input1">
+               <h4>EXPIRY</h4>
+               <input type="te1" placeholder="MM/YY" required id="expiry">
+               </div>
+               <div class="input2">
+               <h4>CVC</h4>
+               <input type="te1" placeholder="CVC" required id="cvc">
+               </div>
+               <!-- <i class="fa fa-user icon"></i> -->
+            </div>
+
+
+           <div class="form-btn">
+               <button type="submit"><i class="fas fa-lock"></i>&nbsp;Donate</button>
+           </div>
+          <div class="paypal-btn">
+            <button type="button" name="button">
+            <span>or use</span>
+            <span>PayPal</span>
+          </button>
+          </div>
+         </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer" id="footer-Donate">
+      <div class="footer-inner">
+        <div class="footer-nav">
+          <ul class="footer-nav-links">
+            <li class="footer-nav-item"><a href="#">My Profile</a></li>
+            <li class="footer-nav-item"><a href="#">About Us</a></li>
+            <li class="footer-nav-item"><a href="#">Jobs</a></li>
+            <li class="footer-nav-item"><a href="#">Privacy Policy & Terms of Use</a><span>New!</span></li>
+            <li class="footer-nav-item"><a href="#">Contact Us</a></li>
+            <li class="footer-nav-item"><a href="#">Start a Petetion</a><i class="fas fa-plus-circle"></i></li>
+          </ul>
+        </div>
+
+      <div class="footer-connect">
+        <p class="footer-intro">Connect with Us</p>
+        <ul class="connect-items">
+          <li><a class="bck-f" href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a class="bck-t" href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a class="bck-i"href="#"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+        <div class="footer-logo">
+          <span>Rescue</span>
+        </div>
+      </div>
+    <div class="license">
+      <span>&copy; Rescue Initiative.com</span>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
